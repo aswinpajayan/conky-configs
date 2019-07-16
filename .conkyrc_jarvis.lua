@@ -27,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ]]
 
 conky.config = {
-    alignment = 'top_left',
+    alignment = 'bottom_left',
     background = false,
     border_width = 1,
     cpu_avg_samples = 2,
@@ -40,7 +40,7 @@ conky.config = {
     draw_shades = false,
     use_xft = true,
     font = 'Courier:size=10:bold',
-    gap_x = 160,
+    gap_x = 10,
     gap_y = 10,
     minimum_height = 900,
 	minimum_width = 900,
@@ -67,10 +67,13 @@ conky.config = {
 	color3 = "40d617", --green
 	color4 = "31245c", --violet
 	color5 = "dfd00f",  --yellow
-	lua_load = '~/.config/conky-configs/clock_handles.lua',
+	lua_load = '~/.config/conky-configs/jarvis.lua',
 	lua_draw_hook_post = 'clock_rings'
 }
 
 conky.text = [[
-${color grey}Uptime:$color1 $uptime
+${color FFFFFF}${font Michroma:size=18}${goto 150}${voffset 500}${cpu cpu0}${font Courier:size=18}%
+${color FFFFFF}${goto 120}${font Michroma:size=18}CPU
+${color FFFFFF}${font Michroma:size=18}${goto 350}${voffset 200}${memperc}${font Courier:size=18}%
+${color FFFFFF}${goto 350}${font Michroma:size=18}RAM
 ]]
