@@ -15,7 +15,7 @@ settings_table = {
         -- "fg_colour" is the colour of the indicator part of the ring.
         fg_colour=0xFFFFFF,
         -- "fg_alpha" is the alpha value of the indicator part of the ring.
-        fg_alpha=0.2,
+        fg_alpha=0.4,
         -- "x" and "y" are the x and y coordinates of the centre of the ring, relative to the top left corner of the Conky window.
         x=100, y=100,
         -- "radius" is the radius of the ring.
@@ -34,27 +34,28 @@ settings_table = {
         bg_colour=0xFFFFFF,
         bg_alpha=0.1,
         fg_colour=0xFFFFFF,
-        fg_alpha=0.4,
-        x=100, y=100,
-        radius=56,
-        thickness=5,
-        start_angle=0,
-        end_angle=360
-    },
-    {
-        name='time',
-        arg='%S',
-        max=60,
-        bg_colour=0xFFFFFF,
-        bg_alpha=0.1,
-        fg_colour=0xFFFFFF,
         fg_alpha=0.9,
         x=100, y=100,
-        radius=62,
+        radius=60,
         thickness=5,
         start_angle=0,
         end_angle=360
     },
+   -- configurations for seconds ring 
+   -- {
+   --     name='time',
+   --     arg='%S',
+   --     max=60,
+   --     bg_colour=0xFFFFFF,
+   --     bg_alpha=0.1,
+   --     fg_colour=0xFFFFFF,
+   --     fg_alpha=0.9,
+   --     x=100, y=100,
+   --     radius=78,
+   --     thickness=5,
+   --     start_angle=0,
+   --     end_angle=360
+   -- },
 {
         name='time',
         arg='%m',
@@ -64,7 +65,7 @@ settings_table = {
         fg_colour=0xFFFFFF,
         fg_alpha=0.0,
         x=100, y=100,
-        radius=67,
+        radius=69,
         thickness=6,
         start_angle=0,
         end_angle=360
