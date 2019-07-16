@@ -80,7 +80,7 @@ clock_r=65
 clock_x=100
 clock_y=100
 
-show_seconds=true
+show_seconds=false
 
 require 'cairo'
 
