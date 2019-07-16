@@ -40,10 +40,10 @@ conky.config = {
     draw_shades = false,
     use_xft = true,
     font = 'Courier:size=10:bold',
-    gap_x = 20,
-    gap_y = 20,
-    minimum_height = 5,
-	minimum_width = 5,
+    gap_x = 160,
+    gap_y = 10,
+    minimum_height = 900,
+	minimum_width = 900,
     net_avg_samples = 2,
 --  no_buffers = true,
 	double_buffer = true,
@@ -66,27 +66,11 @@ conky.config = {
 	color2 = "fb2503", --red
 	color3 = "40d617", --green
 	color4 = "31245c", --violet
-	color5 = "dfd00f"  --yellow
-	--lua_load = '~/.config/conky-configs/clock.lua',
-	--lua_draw_hook_post = 'conky_main'
+	color5 = "dfd00f",  --yellow
+	lua_load = '~/.config/conky-configs/clock_handles.lua',
+	lua_draw_hook_post = 'clock_rings'
 }
 
 conky.text = [[
 ${color grey}Uptime:$color1 $uptime
-${color grey}Frequency (in GHz):$color1 $freq_g
-${color grey}RAM Usage:$color1 $mem/$memmax - $memperc% ${membar 4}
-${color grey}Swap Usage:$color $swap/$swapmax - $swapperc% ${swapbar 4}
-${color grey}CPU Usage:$color $cpu% ${cpubar 4}
-${color grey}Processes:$color $processes  ${color grey}Running:$color $running_processes
-$hr
-${color grey}File systems:
- / $color${fs_used /}/${fs_size /} ${fs_bar 6 /}
-${color grey}Networking:
-Up:$color ${upspeed eth0} ${color grey} - Down:$color ${downspeed eth0}
-$hr
-${color grey}Name              PID   CPU%   MEM%
-${color lightgrey} ${top name 1} ${top pid 1} ${top cpu 1} ${top mem 1}
-${color lightgrey} ${top name 2} ${top pid 2} ${top cpu 2} ${top mem 2}
-${color lightgrey} ${top name 3} ${top pid 3} ${top cpu 3} ${top mem 3}
-${color lightgrey} ${top name 4} ${top pid 4} ${top cpu 4} ${top mem 4}
 ]]
