@@ -19,7 +19,7 @@ settings_table = {
         -- "x" and "y" are the x and y coordinates of the centre of the ring, relative to the top left corner of the Conky window.
         x=100, y=100,
         -- "radius" is the radius of the ring.
-        radius=50,
+        radius=55,
         -- "thickness" is the thickness of the ring, centred around the radius.
         thickness=5,
         -- "start_angle" is the starting angle of the ring, in degrees, clockwise from top. Value can be either positive or negative.
@@ -36,7 +36,7 @@ settings_table = {
         fg_colour=0xFFFFFF,
         fg_alpha=0.9,
         x=100, y=100,
-        radius=60,
+        radius=62,
         thickness=5,
         start_angle=0,
         end_angle=360
@@ -65,8 +65,8 @@ settings_table = {
         fg_colour=0xFFFFFF,
         fg_alpha=0.0,
         x=100, y=100,
-        radius=69,
-        thickness=6,
+        radius=68,
+        thickness=8,
         start_angle=0,
         end_angle=360
     },
@@ -74,7 +74,7 @@ settings_table = {
 
 -- Use these settings to define the origin and extent of your clock.
 
-clock_r=65
+clock_r=60
 
 -- "clock_x" and "clock_y" are the coordinates of the centre of the clock, in pixels, from the top left of the Conky window.
 
