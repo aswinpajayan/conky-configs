@@ -73,7 +73,7 @@ conky.config = {
 }
 
 conky.text = [[
-${color FFFFFF}${font Michroma:size=18}${goto 150}${voffset 500}${cpu cpu0}${font Courier:size=18}%
+${color FFFFFF}${font Michroma:size=18}${goto 120}${voffset 500}${cpu cpu0}${font Courier:size=18}%
 ${color FFFFFF}${goto 120}${font Michroma:size=18}CPU
 $color5${font Michroma:size=18}${goto 350}${voffset 200}${memperc}${font Courier:size=18}%
 $color5${goto 350}${font Michroma:size=18}RAM
