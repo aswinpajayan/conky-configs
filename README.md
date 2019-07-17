@@ -15,4 +15,16 @@ each of the conkyrc files have seperate uses
 .conkyrc_clock.lua -draws clock in right top
     requires clock_handles.lua to work (check lua_load variable in .conkyrc_clock.lua) and correct the path 
     
+ ```
+ conky -d -c .conkyrc.lua
+ conky -d -c .conkyrc_jarvis.lua
+ conky -d -c .conkyrc_clock.lua
+ ```
+ -d switch force conky to run as a background process 
+ To kill all the conky processes. use 
+ 
+ ```
+ killall conky
+ ```
+    
  This project is a blind copy of [conky-dashboard project](https://github.com/He4eT/conky-dashboard.git)
