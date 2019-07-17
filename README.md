@@ -27,4 +27,8 @@ each of the conkyrc files have seperate uses
  killall conky
  ```
     
+ ### dependencies 
+ 
+ Font family used is Michroma you need to have this installed. Else you can edit .conkrc*.lua files to change the font
+    
  This project is a blind copy of [conky-dashboard project](https://github.com/He4eT/conky-dashboard.git)
