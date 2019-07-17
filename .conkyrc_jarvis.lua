@@ -67,6 +67,7 @@ conky.config = {
 	color3 = "40d617", --green
 	color4 = "31245c", --violet
 	color5 = "dfd00f",  --yellow
+	color6 = "ebbf3b",  --yellow
 	lua_load = '~/.config/conky-configs/jarvis.lua',
 	lua_draw_hook_post = 'clock_rings'
 }
@@ -74,6 +75,6 @@ conky.config = {
 conky.text = [[
 ${color FFFFFF}${font Michroma:size=18}${goto 150}${voffset 500}${cpu cpu0}${font Courier:size=18}%
 ${color FFFFFF}${goto 120}${font Michroma:size=18}CPU
-${color FFFFFF}${font Michroma:size=18}${goto 350}${voffset 200}${memperc}${font Courier:size=18}%
-${color FFFFFF}${goto 350}${font Michroma:size=18}RAM
+$color5${font Michroma:size=18}${goto 350}${voffset 200}${memperc}${font Courier:size=18}%
+$color5${goto 350}${font Michroma:size=18}RAM
 ]]
