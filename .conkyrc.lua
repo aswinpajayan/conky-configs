@@ -67,6 +67,7 @@ conky.config = {
 	color3 = "40d617", --green
 	color4 = "31245c", --violet
 	color5 = "dfd00f"  --yellow
+	color6 = "6D182D", --pink from screen
 	--lua_load = '~/.config/conky-configs/clock.lua',
 	--lua_draw_hook_post = 'conky_main'
 }
