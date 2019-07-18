@@ -80,8 +80,10 @@ ${color grey}File systems:
 $hr
 ${color grey}Networking:
 ${color grey}IPv4 Addr:$color1 ${addr enp3s0}
-Up:$color ${upspeed enp3s0} ${color grey} - Down:$color ${downspeed enp3s0}
+${color lightgrey}Up:$color1 ${upspeed enp3s0} ${color grey} - Down:$color ${downspeed enp3s0}
 $hr
+${color grey}CPU Temp: $color2${platform coretemp.0/hwmon/hwmon1 temp 1} C
+$color1$hr
 ${color grey}Name              PID   CPU%   MEM%
 ${color lightgrey} ${top name 1} ${top pid 1} ${top cpu 1} ${top mem 1}
 ${color lightgrey} ${top name 2} ${top pid 2} ${top cpu 2} ${top mem 2}
