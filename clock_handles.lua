@@ -186,11 +186,9 @@ function conky_clock_rings()
     local updates=conky_parse('${updates}')
     update_num=tonumber(updates)
     
-    if update_num>5 then
         for i in pairs(settings_table) do
             setup_rings(cr,settings_table[i])
         end
-    end
     
     draw_clock_hands(cr,clock_x,clock_y)
     --test
