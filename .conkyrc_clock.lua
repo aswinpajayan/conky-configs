@@ -40,7 +40,8 @@ conky.config = {
     draw_shades = false,
     use_xft = true,
     font = 'Courier:size=10:bold',
-    gap_x = 20,
+	xinerama_head=2, --two monitors
+    gap_x = 10,
     gap_y = 10,
     minimum_height = 200,
 	minimum_width = 200,
