@@ -33,4 +33,15 @@ each of the conkyrc files have seperate uses
  Dont forget to change the ethernet name for displaying Uplink downlink. Use 
  ``` ip a ``` to find out the name of your network adapter . mine was enp3s0
     
- This project is a blind copy of [conky-dashboard project](https://github.com/He4eT/conky-dashboard.git)
+ This project is inspired from  [conky-dashboard project](https://github.com/He4eT/conky-dashboard.git)
+ 
+ # System theme settings
+ Uses gnome-tweaks 
+ Theme Telinkrin-Buttons-Left
+ Cursor DMZ-Black
+ Icons Tela
+ 
+ `Dash to Panel` extension for changing the position of dash
+ 
+ Desktop show Icons set to off in gnome-tweaks
+ 
